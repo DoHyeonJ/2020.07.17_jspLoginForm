@@ -3,7 +3,7 @@
 <head>
 <title>회원가입</title>
 <link href="style.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="script.js" charset="UTF-8"></script>
 <script type="text/javascript">
 	function idCheck(id) {
 		frm = document.regFrm;
