@@ -19,7 +19,7 @@
 
 </script>
 </head>
-<body bgcolor="white" onLoad="regFrm.id.focus()"> 
+<body onLoad="regFrm.id.focus()"> 
 	<div align="center">
 		<br /><br />
 		<form name="regFrm" method="post" action="memberProc.jsp">
