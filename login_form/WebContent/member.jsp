@@ -8,7 +8,7 @@
 	function idCheck(id) {
 		frm = document.regFrm;
 		if (id == "") {
-			alert("아이디를 입력해 주세요.");
+			alert("아이디를 입력해 주세요");
 			frm.id.focus();
 			return;
 		}
@@ -33,17 +33,17 @@
 									<input name="id" size="15"> 
 									<input type="button" value="ID중복확인" onClick="idCheck(this.form.id.value)">
 								</td>
-								<td width="30%">아이디를 적어 주세요.</td>
+								<td width="30%">아이디를 적어 주세요</td>
 							</tr>
 							<tr>
 								<td>패스워드</td>
 								<td><input type="password" name="pwd" size="15"></td>
-								<td>패스워드를 적어주세요.</td>
+								<td>패스워드를 적어주세요</td>
 							</tr>
 							<tr>
 								<td>패스워드 확인</td>
 								<td><input type="password" name="repwd" size="15"></td>
-								<td>패스워드를 확인합니다.</td>
+								<td>패스워드를 확인합니다</td>
 							</tr>
 							<tr>
 								<td>이름</td>
@@ -57,19 +57,19 @@
 									남<input type="radio" name="gender" value="1" checked> 
 									여<input type="radio" name="gender" value="2">
 								</td>
-								<td>성별을 선택 하세요.</td>
+								<td>성별을 선택 하세요</td>
 							</tr>
 							<tr>
 								<td>생년월일</td>
 								<td><input name="birthday" size="6">
 									ex)970805</td>
-								<td>생년월일을 적어 주세요.</td>
+								<td>생년월일을 적어 주세요</td>
 							</tr>
 							<tr>
 								<td>Email</td>
 								<td><input name="email" size="30">
 								</td>
-								<td>이메일을 적어 주세요.</td>
+								<td>이메일을 적어 주세요</td>
 							</tr>
 							<tr>
 								<td colspan="3" align="center">
