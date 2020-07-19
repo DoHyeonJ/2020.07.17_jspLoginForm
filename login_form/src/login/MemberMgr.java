@@ -47,14 +47,14 @@ public class MemberMgr {
 		boolean flag = false;
 		try {
 			con = pool.getConnection();
-			sql = "insert tblMember(id,pwd,name,gender,birthday,email)values(?,?,?,?,?,?)";
+			sql = "insert tblMember(id,pwd,name,birthday,email,gender)values(?,?,?,?,?,?)";
 			pstmt = con.prepareStatement(sql);
 			pstmt.setString(1, bean.getId());
 			pstmt.setString(2, bean.getPwd());
 			pstmt.setString(3, bean.getName());
-			pstmt.setString(4, bean.getGender());
-			pstmt.setString(5, bean.getBirthday());
-			pstmt.setString(6, bean.getEmail());
+			pstmt.setString(4, bean.getBirthday());
+			pstmt.setString(5, bean.getEmail());
+			pstmt.setString(6, bean.getGender());
 
 			if (pstmt.executeUpdate() == 1)
 				flag = true;
