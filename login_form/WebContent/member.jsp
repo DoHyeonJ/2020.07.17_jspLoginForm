@@ -71,7 +71,7 @@
                             <input type="email" name="email"class="form-control">
                             <label for="materialFormRegisterPasswordEx">이메일을 입력해주세요</label>
                       </div>
-                      <label for="materialFormRegisterPasswordEx">성별을 선택하세요.</label>
+                      <label for="materialFormRegisterPasswordEx">성별을 선택하세요</label>
 									남<input type="radio" name="gender" value="1" checked> 
 									여<input type="radio" name="gender" value="2">
 									<br></br>
