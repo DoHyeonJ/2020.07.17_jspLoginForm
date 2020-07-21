@@ -42,19 +42,24 @@
                       <p class="h4 text-center mb-4">Sign up</p>
                       <div class="md-form">
                          <i class="fa fa-user prefix grey-text"></i>
-                         <input type="text" id="materialFormRegisterNameEx" name="id"class="form-control">
+                         <input type="text" name="id"class="form-control">
                          <label for="materialFormRegisterNameEx">ID를입력해주세요</label>
                          <input type="button" value="ID중복확인" onClick="idCheck(this.form.id.value)" class="btn btn-primary" style="display:block">
                       </div>
                       <div class="md-form">
                          <i class="fa fa-envelope prefix grey-text"></i>
-                         <input type="password" id="materialFormRegisterEmailEx" name="pwd"class="form-control">
+                         <input type="password" name="pwd"class="form-control">
                          <label for="materialFormRegisterEmailEx">비밀번호를 입력해주세요</label>
                       </div>
                       <div class="md-form">
                          <i class="fa fa-exclamation-triangle prefix grey-text"></i>
-                         <input type="password" id="materialFormRegisterConfirmEx" name="repwd"class="form-control">
+                         <input type="password" name="repwd"class="form-control">
                          <label for="materialFormRegisterConfirmEx">비밀번호를 확인합니다.</label>
+                      </div>
+                      <div class="md-form">
+                         <i class="fa fa-exclamation-triangle prefix grey-text"></i>
+                         <input type="text" name="name"class="form-control">
+                         <label for="materialFormRegisterNameEx">이름을 입력해주세요</label>
                       </div>
                       <div class="md-form">
                         <i class="fa fa-lock prefix grey-text"></i>
@@ -63,7 +68,7 @@
                       </div>
                       <div class="md-form">
                            <i class="fa fa-exclamation-triangle prefix grey-text"></i>
-                            <input type="email" id="materialFormRegisterConfirmEx" name="email"class="form-control">
+                            <input type="email" name="email"class="form-control">
                             <label for="materialFormRegisterPasswordEx">이메일을 입력해주세요</label>
                       </div>
                       <label for="materialFormRegisterPasswordEx">성별을 선택하세요.</label>
@@ -71,6 +76,7 @@
 									여<input type="radio" name="gender" value="2">
 									<br></br>
                        <input type="button" class="btn btn-primary"value="회원가입" onclick="inputCheck()">
+                       <input type="button" class="btn btn-primary"value="로그인" onclick="location.href='login.jsp'">
                    </form> 
                   </div>
                 </div>

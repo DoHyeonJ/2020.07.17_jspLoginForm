@@ -8,7 +8,7 @@
 <title>LOGIN</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script> -->
-<link href="style.css" rel="stylesheet" type="text/css">
+<!-- <link href="style.css" rel="stylesheet" type="text/css"> -->
 <script type="text/javascript">
 	function loginCheck() {
 		if (document.loginFrm.id.value == "") {
