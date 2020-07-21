@@ -54,7 +54,7 @@
                       <div class="md-form">
                          <i class="fa fa-exclamation-triangle prefix grey-text"></i>
                          <input type="password" name="repwd"class="form-control">
-                         <label for="materialFormRegisterConfirmEx">비밀번호를 확인합니다.</label>
+                         <label for="materialFormRegisterConfirmEx">비밀번호를 확인합니다</label>
                       </div>
                       <div class="md-form">
                          <i class="fa fa-exclamation-triangle prefix grey-text"></i>
